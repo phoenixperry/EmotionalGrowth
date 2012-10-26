@@ -249,6 +249,7 @@ package
 		public function onServer(e:flash.events.Event):void {
 			trace(e);
 		}
+		
 		public function onReceiveData(dataEvent:flash.events.DataEvent):void { 
 			
 			var Data:DataEvent=dataEvent;
@@ -271,7 +272,8 @@ package
 			trace(attackBtn,speedKnob); 
 			if(attackBtn == 1) { 
 				//you got high
-			}else{ //you got low } 
+			}else{ //you got low 
+			} 
 			
 			//note this array only accepts ints so I had to mult by 100 in processing
 			//here I reverse that so I can apply the stage multiplyer. 
